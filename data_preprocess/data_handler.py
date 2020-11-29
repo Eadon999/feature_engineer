@@ -151,7 +151,7 @@ class DataPreprocess:
         self.config_feature_name.insert(0, 'label')
         print("using sample feature_num:{},using sample feature_name:{}".format(sample_feature.size,
                                                                                 list(sample_feature)))
-        self.config_feature_name = ['label', 'm_tag_score_s_user', 'parent_user', 'career_user']
+    
 
         for feature in self.config_feature_name:
             if feature == 'label':
