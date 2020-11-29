@@ -1,0 +1,4 @@
+name	type_name	is_using	bucket_bin	encoder_label	pretrain_model	delimiter	comment
+gender	string	1		["0","1","unk"]	gender.pkl		用户性别
+career	string_sparse	1		[ "求职者", "程序员", "大学生", "unk", "白领"]	career.pkl	{"col_delimiter": "|"}	职业:"求职者|程序员|白领"
+buy_times	number	1	[0,100,1500,1800]		buy.pkl		点赞次数（真实）
